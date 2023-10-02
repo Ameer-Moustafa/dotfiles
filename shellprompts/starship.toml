@@ -1,1 +1,8 @@
-/home/void/.config/starship.toml
+format = """
+$username\
+$directory\
+"""
+
+[username]
+show_always = true
+format = '[ 󱅻 $user]($style) '
